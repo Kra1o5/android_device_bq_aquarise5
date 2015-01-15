@@ -1,4 +1,4 @@
-LOCAL_PATH := device/bq/aquarise5
+LOCAL_PATH := device/bq/vegetalte
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 	LOCAL_KERNEL := $(LOCAL_PATH)/kernel
@@ -25,4 +25,4 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, build/target/product/full.mk)
 
-PRODUCT_NAME := aquarise5
+PRODUCT_NAME := vegetalte
